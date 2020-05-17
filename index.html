@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Guitar brands, DOM</title>
+	<title>Javascript + DOM</title>
+	<link rel="stylesheet" type="text/CSS" href="guitars_style.css">
 </head>
 <body>
-
-
-<input id="userInput" type="text" placeholder="enter items">
-<button id="enter">Enter</button>
-
-
-<h1>Guitar brands</h1>
-
-
-
-<ul name="Guitars">
-<li title="Gipson">Gipson</li>
-<li>Esp</li>
-<li>Epiphone</li>
-<li>Tokai</li>
+<h1>Guitar brands once again</h1>
+<p class="i">You can add guitars to the list. Use button or enter. It can´t be empty. Keep it short.</p>
+	<input id="userinput" type="text" placeholder="Guitar brand">
+<button id="enter">Add</button>
+<ul>
+		<li>Esp <button>Remove</button></li>
+		<li>Ltd <button>Remove</button></li>
+		<li>Ibanez <button>Remove</button></li>
+		<li>Tokai <button>Remove</button></li>
+		<li>Fender <button>Remove</button></li>
 </ul>
 
-<script type="text/javascript" src="events.js"></script>
+	<script type="text/javascript" src="guitars_script.js"></script>
+
+
 </body>
 </html>
