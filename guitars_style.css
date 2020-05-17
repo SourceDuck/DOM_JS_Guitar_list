@@ -3,3 +3,24 @@
 font-family: verdana;
 font-style: italic;
 }
+
+body {
+  padding: 10px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: grey;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+li {
+  cursor: pointer;
+  user-select: none;
+  font-size: 1.2em;
+}
